@@ -2309,12 +2309,11 @@ var prefix = "="
 if (message.author.bot) return;
 if (message.content.startsWith(prefix + "credit")) {
 if (!message.channel.guild) return;
-                        ctx.font = "bold 12px kathen" // نوع الخط وحجمه
-                        ctx.fontSize = '10px'; // عرض الخط
-                        ctx.fillStyle = "#f1f1f1" // لون الخط
-                        ctx.textAlign = "center"; // محاذا ة النص
-                        ctx.fillText(`$${profile[getvalueof.id].credits}`, 81, 159) // احداثيات المصاري
-
+                        ctx.font = "bold 12px kathen"
+                        ctx.fontSize = '10px'; 
+                        ctx.fillStyle = "#f1f1f1" 
+                        ctx.textAlign = "center"; 
+                        ctx.fillText(`$${profile[getvalueof.id].credits}`, 81, 159) 
 client.on('message', message => {
 	var prefix = "="
   if (message.author.x5bz) return;
